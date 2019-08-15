@@ -1,14 +1,14 @@
 import AppKit
 
-/// This playground was written by Todd Bruss (c) 2019
+/// Todd Swift Playground: Optionals! (c) Todd Swift 2019
 /// Follow me on twitter @iOS_Swift
 /// Website: https://starplayrx.com
 /// August 14, 2019
-/// Github: StarPlayrX/OptionalsPlayground
+/// Github: StarPlayrX/Playgrounds/.
 
 /// Lesson 1
 /// All About Optionals
-/// Written by Todd Bruss
+/// Written by Todd Swift
 /// Ingredients: 100% Swift
 /// In Swift We Trust.
 
@@ -35,7 +35,7 @@ var SwiftTodd2 : Optional<String>
 /// This is how to create an optional with a value
 var ToddSwift : String? = "Todd Swift" //Todd Swift
 
-/// ifyou do not force unwrap an optional it will have an Optional Type with a value inside, in this case a string
+/// if you do not force unwrap an optional it will have an Optional Type with a value inside, in this case a string
 print(ToddSwift as Any) /// Optional("Todd Swift")
 /// Not recommended, but you can force unwrap an optional using !
 let Todd = ToddSwift!
@@ -134,7 +134,7 @@ if SwiftTodd != nil {
 
 /// Oh wait I almost forgot. I had this interview question and I failed
 /// So here it is. Write a function and return a value or nil
-/// How do you do that? The anser is simple. You return an optional like so
+/// How do you do that? The answer is simple. You return an optional like so
 
 func YouDaMan () -> String? {
     return SwiftTodd // returns nil
@@ -151,7 +151,7 @@ YouDaManNowDawg()
 /// So there you go. That is about 100% of everything you need to know about Optionals.
 
 /// One more thing, you can use the Optional type to define an optional long hand
-print( Optional("Congrat's! You Graduated the first Todd Swift class.") as Any)
+print( Optional("Congrat's! You Graduated the first Todd Swift class.") as Any )
 
 
 
