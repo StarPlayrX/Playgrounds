@@ -4,7 +4,7 @@ import AppKit
 /// Follow me on twitter @iOS_Swift
 /// Website: https://starplayrx.com
 /// August 14, 2019
-/// Github: StarPlayrX/Playgrounds/.
+/// Github: StarPlayrX/Playgrounds/OptionalsPlayground.playground
 
 /// Lesson 1
 /// All About Optionals
@@ -64,8 +64,11 @@ SwiftTodd = nil //nil
 //yup that worked!
 
 /// now let use ? to safely access this optional with an utf8 extension.
-///We already know it's nill but ? won't crash your app
-let utf8Ext = SwiftTodd?.utf8 //nil (but it did not crash.
+///We already know it's nil but ? won't crash your app
+let utf8Ext = SwiftTodd?.utf8 //nil (but it did not crash.).
+
+// ? does not unwrap the optional but it lets you use it safely. later on you may need to safely unwrap it
+// with if let or protect against nil with guard
 
 //uncomment this line, can you predict what will happen?
 //let utf8Ext2 = SwiftTodd!.utf8
