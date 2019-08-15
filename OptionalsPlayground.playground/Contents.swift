@@ -135,9 +135,10 @@ if SwiftTodd != nil {
 
 /// Okay that about wraps it up for Optionals.
 
-/// Oh wait I almost forgot. I had this interview question and I failed
+/// Oh wait I almost forgot. I promised this interview question
 /// So here it is. Write a function and return a value or nil
-/// How do you do that? The answer is simple. You return an optional like so
+/// How do you do that? The answer is simple.
+/// You simply make the return type an optional using ?
 
 func YouDaMan () -> String? {
     return SwiftTodd // returns nil
